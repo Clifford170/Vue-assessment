@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
   line-height: 1.5;
-  font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -14,13 +17,34 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0%;
   place-items: center;
-  min-height: 100vh; 
-  
+  min-height: 100vh;  
 }
 
+img {
+  max-width: 100%;
+}
 
+header, footer {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+header {
+  background-color: transparent linear-gradient(207deg, #ECF0F6 0%, #D6E3F3 100%) 0% 0% no-repeat padding-box;
+  background-image: url("/src/assets/Exprerian/BG1.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.btn-theme {
+  background: #AF1685 0% 0% no-repeat padding-box;
+  color: #ffffff;
+  border: 1px solid #AF1685;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
