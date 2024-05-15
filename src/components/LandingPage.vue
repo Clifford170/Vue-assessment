@@ -1,45 +1,43 @@
 <script setup>
 </script>
 <template>
-   <div class="container-fluid con">
-       <div class="slides">
-                <div class="row navbarRaw">
-                    <div class="col">
-                            <span class="portal">
-                                <img src="/src/assets/Exprerian/ProductPortalLogo.png">
-                        </span>
-                    </div>
-                    <div class="col left">
-                        <span class="login" >
-                            Login
-                        </span>
-                        <span >
-                            <button class="getStarted">
-                                Get Started  <i class="bi bi-arrow-up-right"></i>
-                            </button>
-                        </span>
-                       </div>
-
-                    <div class="row theRowBest">
-                            <div class="col-12 theBest">
-                                    The Best and most Trusted<span> <br> <img class="financeMove" src="/src/assets/Exprerian/FinancialWording.png"></span> Products
-                            </div>
-                    </div>  
-                    <div class="row group">
-                            <div class="col-12 applications">
-                                <img class="applPic" src="/src/assets/Exprerian/Infographic1.png">
-                            </div>
-                    </div>
-                </div>          
-       </div>
-   </div>
+   <div class="container-fluid">
+    <div class="row">
+        <div class="slides">
+                 <div class="row navbarRaw">
+                     <div class="col">
+                             <span class="portal">
+                                 <img src="/src/assets/Exprerian/ProductPortalLogo.png">
+                         </span>
+                     </div>
+                     <div class="col left">
+                         <span class="login" >
+                             Login
+                         </span>
+                         <span >
+                             <button class="getStarted">
+                                 Get Started  <i class="bi bi-arrow-up-right"></i>
+                             </button>
+                         </span>
+                        </div>
+ 
+                     <div class="row theRowBest">
+                             <div class="col-12 theBest">
+                                     The Best and most Trusted<span> <br> <img class="financeMove" src="/src/assets/Exprerian/FinancialWording.png"></span> Products
+                             </div>
+                     </div>  
+                     <div class="row group">
+                             <div class="col-12 applications">
+                                 <img class="applPic" src="/src/assets/Exprerian/Infographic1.png">
+                             </div>
+                     </div>
+                 </div>          
+        </div>
+    </div>
+    </div>
 </template>
 
 <style>
-.con{
-    position: relative;
-    padding: 0px 0px;
-}
 .slides{
     background-color: transparent linear-gradient(207deg, #ECF0F6 0%, #D6E3F3 100%) 0% 0% no-repeat padding-box;
     background-image: url("/src/assets/Exprerian/BG1.png");
